@@ -1,0 +1,232 @@
+body{
+  color: #4f516b;
+  font-family: 'Poppins', sans-serif;
+}
+section{
+  padding: 100px 100px;
+}
+h1{
+  font-weight: 600;
+  font-size: 2.5vw;
+
+}
+
+.navbar{
+  box-shadow: 2px 2px 8px 1px #F7F7F7;
+}
+.nav-container{
+  padding: 10px 0;
+  justify-content: center;
+}
+
+.collapse{
+  justify-content: center;
+}
+.nav-link{
+  font-size: 14px;
+  margin: 0 10px;
+}
+.login-button{
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 0 20px;
+}
+.free-trial-button{
+  font-size: 16px;
+  font-weight: 700px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.btn-primary{
+  background: linear-gradient(to left, #39B5E0 0%, #2146C7 90%);
+  border-width: 0;
+	/* -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; */
+}
+
+
+
+.bg-linear-color {
+    position: absolute;
+    right: 0;
+    height: 90%;
+    width: 20vw;
+    background: linear-gradient(180deg,#444bab,rgba(99,167,211,.266) 73.44%,rgba(110,200,225,0));
+    z-index: -1;
+}
+
+.home .col-lg-6{
+  margin: auto;
+}
+#home h1{
+  font-size: 3.8rem;
+  font-weight: 600;
+}
+#home .text{
+  background: linear-gradient(to left, #39B5E0 0%, #2146C7 70%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.form1-container{
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 0px 0px 3px 1px #EAEAEA;
+  border-radius: 10px;
+  padding: 30px;
+}
+.form1{
+  text-align: left;
+}
+
+.section-header{
+  text-align: center;
+}
+
+#home label{
+  font-weight: normal;
+}
+
+
+.new-course{
+  width: 100%;
+  height: 80px;
+  /* background-color: #BFEAF5; */
+  background: linear-gradient(180deg,#BFEAF5,#fff 100%,rgba(110,200,225,0));
+  text-align: center;
+  padding: 5px 0;
+}
+.new-course h6{
+  font-size: 18px;
+  padding-top: 22px;
+}
+
+#courses .head-container{
+  text-align: center;
+}
+#courses .head-container p{
+  font-size: 18px;
+  margin: auto 12%;
+}
+
+#courses h5{
+  font-weight: bolder;
+}
+
+.card{
+  margin: 30px;
+}
+
+#courses a{
+  font-size: 18px;
+  text-decoration: none;
+  color: #2146C7;
+}
+
+#impact{
+  text-align: center;
+  padding-top: 0;
+}
+
+#impact h5, #offerings h5, #success h5, #success-carousel h5, .section-header h5{
+  font-weight: bolder;
+  color: #2146C7;
+}
+
+#impact .row{
+  padding: 0 5%;
+}
+#impact .row h1{
+  margin-top: 80px;
+  background: linear-gradient(to bottom, #39B5E0 0%, #2146C7 70%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#offerings{
+  text-align: center;
+  padding-top: 30px;
+}
+
+#offerings .row{
+  margin-top: 10%;
+  text-align: left;
+}
+#offerings .col-lg-6{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#offerings img {
+  border-radius: 20px;
+}
+#offerings .btn, #success-carousel .btn{
+  /* border-width: medium; */
+  max-width: 10rem;
+  font-size: 16px;
+  /* font-weight: bolder; */
+  border-width: 2px;
+  border-color: #2146C7;
+  background: linear-gradient(to left, #39B5E0 0%, #2146C7 70%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.carousel-item{
+  padding: 5% 12%;
+}
+
+#success-carousel .btn{
+  max-width: 15rem;
+}
+
+.stories-button-container{
+  text-align: center;
+}
+
+
+#team{
+  padding: 100px 0;
+}
+#team .section-header{
+  padding-bottom: 50px;
+}
+.members{
+  background: linear-gradient(96.55deg,rgba(62,142,188,.62),rgba(63,126,184,.536) 30.88%,rgba(65,106,179,.43) 84.64%,rgba(67,81,173,.302) 99.02%,rgba(68,75,171,.67) 102.21%);
+  text-align: center;
+  padding: 100px 100px;;
+}
+.members .col-lg-4{
+  padding: 30px;
+}
+.member{
+  background-color: #fff;
+  min-height: 105%;
+  position: relative;
+}
+.member-text{
+  padding: 10px 20px 50px;
+}
+.member img{
+  margin-top: -25%;
+}
+.member b{
+  color: #000;
+  font-weight: 500;
+}
+.member .member-title{
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 5px;
+}
+.member p{
+  /* font-size: 14px; */
+  /* font-weight: 300; */
+}
+.socials{
+  font-size: 2rem;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
